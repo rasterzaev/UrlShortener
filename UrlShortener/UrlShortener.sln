@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlShortener", "UrlShortener.csproj", "{5E3A7B87-772C-4946-A96B-F8FC47826AEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{76E22319-4CF7-4CD2-BC1B-0E1C3EE796D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogic", "BusinessLogic", "{4DB9B73B-0B2E-4DCC-9EAC-6EB9C0064333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic.Contracts", "..\BusinessLogic.Contracts\BusinessLogic.Contracts.csproj", "{3855178A-70A7-4C99-820C-E4E6386E2041}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogics", "..\BusinessLogics\BusinessLogics.csproj", "{C279CE85-7C8D-45B5-B20E-DAF2112759FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataLayer", "DataLayer", "{EA185204-3A64-4AC5-B715-53EE3DFA416A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageServices", "..\StorageServices\StorageServices.csproj", "{CC8D4C67-CE58-45E9-B21D-4305ED789266}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageServices.Contracts", "..\StorageServices.Contracts\StorageServices.Contracts.csproj", "{5E68E742-832E-4238-BE09-9B7DBDB20BA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E3A7B87-772C-4946-A96B-F8FC47826AEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E3A7B87-772C-4946-A96B-F8FC47826AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E3A7B87-772C-4946-A96B-F8FC47826AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E3A7B87-772C-4946-A96B-F8FC47826AEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3855178A-70A7-4C99-820C-E4E6386E2041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3855178A-70A7-4C99-820C-E4E6386E2041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3855178A-70A7-4C99-820C-E4E6386E2041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3855178A-70A7-4C99-820C-E4E6386E2041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C279CE85-7C8D-45B5-B20E-DAF2112759FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C279CE85-7C8D-45B5-B20E-DAF2112759FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C279CE85-7C8D-45B5-B20E-DAF2112759FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C279CE85-7C8D-45B5-B20E-DAF2112759FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC8D4C67-CE58-45E9-B21D-4305ED789266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC8D4C67-CE58-45E9-B21D-4305ED789266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC8D4C67-CE58-45E9-B21D-4305ED789266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC8D4C67-CE58-45E9-B21D-4305ED789266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E68E742-832E-4238-BE09-9B7DBDB20BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E68E742-832E-4238-BE09-9B7DBDB20BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E68E742-832E-4238-BE09-9B7DBDB20BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E68E742-832E-4238-BE09-9B7DBDB20BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E3A7B87-772C-4946-A96B-F8FC47826AEC} = {76E22319-4CF7-4CD2-BC1B-0E1C3EE796D6}
+		{3855178A-70A7-4C99-820C-E4E6386E2041} = {4DB9B73B-0B2E-4DCC-9EAC-6EB9C0064333}
+		{C279CE85-7C8D-45B5-B20E-DAF2112759FE} = {4DB9B73B-0B2E-4DCC-9EAC-6EB9C0064333}
+		{CC8D4C67-CE58-45E9-B21D-4305ED789266} = {EA185204-3A64-4AC5-B715-53EE3DFA416A}
+		{5E68E742-832E-4238-BE09-9B7DBDB20BA1} = {EA185204-3A64-4AC5-B715-53EE3DFA416A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AF44499-65C0-4E82-A3ED-F4FA1FD7A170}
+	EndGlobalSection
+EndGlobal

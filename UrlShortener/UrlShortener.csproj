@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.9.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLogic.Contracts\BusinessLogic.Contracts.csproj" />
+    <ProjectReference Include="..\BusinessLogics\BusinessLogics.csproj" />
+    <ProjectReference Include="..\StorageServices.Contracts\StorageServices.Contracts.csproj" />
+    <ProjectReference Include="..\StorageServices\StorageServices.csproj" />
+  </ItemGroup>
+
+
+</Project>
